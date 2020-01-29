@@ -1,0 +1,36 @@
+body{
+    font-family: "Comic Sans MS", "Comic Sans", cursive; 
+    color: black; 
+    }
+#sidebar{
+    position: fixed;
+    height: 100%;
+    width: 200px;
+}
+#sidebar-img{
+    height: 20px;
+    width: 40px;
+    padding-left: 70px;
+}
+#sidebar ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+#sidebar ul li a{
+    text-decoration: none;
+    color: honeydew;
+}
+#sidebar button{
+    color: honeydew;
+}
+main{
+    padding-left: 250px;
+}
+#sch,#mas,#col,#inter{
+    text-align: center;
+    border: 2px solid black;
+    padding: 4px;
+}
+ h3{
+    height: 100px ;
+} 

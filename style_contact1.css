@@ -1,0 +1,30 @@
+.email{
+    height: 150px;
+    width: 300px;
+    background-color: white;
+  /* background-image: url("icons/email.png"); */
+    background-size: 300px 300px;
+    border: thin solid blue;
+    border-radius: 25px;
+    text-align: center;
+    padding-left: 10px;
+}
+.cont{
+    height: 150px;
+    width: 300px;
+    background-color: white;
+  /* background-image: url("icons/email.png"); */
+    background-size: 300px 300px;
+    border: thin solid blue;
+    border-radius: 25px;
+    text-align: center;
+    padding-left: 10px;
+}
+.sidebar{
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    background-color: beige;
+    
+}

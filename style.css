@@ -1,0 +1,50 @@
+img{
+    height : 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+body{
+font-family: "Comic Sans MS", "Comic Sans", cursive; 
+color: black; 
+font-size: 20px;  
+}
+#myphoto{
+    height: 250px;
+    width: 200px;
+    margin-left: 10px;
+}
+#my-details{
+    list-style: none;
+    line-height: 30px;
+}
+.sidebar{
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    background-color: #4267B2;
+    border: thin solid black;
+}
+main
+{
+    position: relative;
+    right: -350px;
+}
+main div{
+    margin-top: 25px;
+    height: 60px;
+    width: 800px;
+    background-color: #4267B2;
+    border-radius: 25px;
+    border: thin solid black;
+}
+
+#enquiry a{
+    color: burlywood;
+    height: 5px;
+}

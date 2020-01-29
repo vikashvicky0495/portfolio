@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vicky Contacts!!</title>
+ <!--   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> -->
+    <script type = "text/javascript" src="jquery-3.0.0.js"></script> 
+    <script type = "text/javascript" src="angular2.js"></script> 
+    <link rel="stylesheet" href="style_contact.css" type="text/css"/>
+    <link rel="stylesheet" href="bootstrap.css" type="text/css"/>
+    <script type="text/javascript" src="bootstrap.js"></script>
+</head>
+<body >
+    <script type = "text/javascript" src="contactScript.js"></script>
+    
+    <!-- <div class = "sidebar" style="width: 200px; border: thin solid black; position: fixed; padding-top: 80px;">
+        <ul id = "sidebar-lists" class="bg-primary">
+        <li><a href="index.html"><img id = "myphoto" src = "icons/home.png" alt = "home picture" style="height: 40px; width: 40px;"/></a></li>
+        <li><a href = "education.html">Education</a></li>        
+        <li><a href = "tSkills.html">Technical Skills</a></li>
+        <li><a href = "eHistory.html">Employement History</a></li>
+        <li><a href = "pSkills.html">Personal Skills</a></li>
+        <li><a href = "achievements.html">Achievements</a></li>
+        <li><a href = "certifications.html">Certifications</a></li>
+        </ul>
+    </div> -->
+    <h2 style="text-align: center; padding-top: 20px; color: honeydew;" class="bg-primary">Contact Information</h2>
+    <div id ="social" class="sticky-bottom">
+    <ul>
+        <li><a href="https://www.facebook.com/vicky.vikash.hwks/"><img src="icons/facebook.png" alt="facebook"></a></li>
+        <li><a href="https://www.instagram.com/arcanine_2604"><img src="icons/instagram.png" alt="instagram"></a></li>
+        <li><a href="https://www.linkedin.com/in/vikashvicky2604/"><img src="icons/linkedin.png" alt="linkedin"></a></li>
+        <li><a href="https://www.snapchat.com/in/vicky_vikash/"><img src="icons/snapchat.png" alt="snapchat"></a></li>
+        
+    </ul>
+    </div>
+    <div id="sidebar">
+        <div class="container">
+         <nav class="navbar bg-primary navbar-dark">
+             <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+         aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+             class="fas fa-bars fa-1x"></i></span>Menu</button>
+             <div class="collapse navbar-collapse" id="collapsibleNavbar">
+               <ul class="navbar-nav mr-auto">
+                 <li class="nav-item">
+                   <a class = "nav-link" href="index.html">Home</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class = "nav-link" href="contact.html">Contact</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class = "nav-link" href="education.html">Education</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class = "nav-link" href="tskills.html">Technical Skills</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class = "nav-link" href="ehistory.html">Employement History</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class = "nav-link" href="pskills.html">Personal Skills</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class = "nav-link" href="achieve.html">Achievements</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class = "nav-link" href="certi.html">Certifications</a>
+                 </li>    
+               </ul>
+             </div>  
+           </nav>
+         </div>
+       </div>
+    <main ng-app="myApp1" ng-controller="myCtrl1">
+    <div id="top" class="conatiner-fluid align-items-start">
+        <div class="masthead d-flex">
+             <div ng-mouseenter="emyFunc()" ng-mouseleave="emyFuk()" class="email">
+                <h2>Primary Email</h2>
+                <img src = "icons/email.png" class="slide1" style="height: 40px; width: 40px;">
+                <h3>{{ email }}</h3>      
+            </div>
+            <div ng-mouseenter="cmyFunc()" ng-mouseleave="cmyFuk()" class="cont">
+                <h2>Contact Number</h2>
+                <img src = "icons/phone.png" class="slide2" style="height: 40px; width: 40px;">
+                <h3>{{ cont }}</h3> 
+            </div>
+        </div>  
+    </div>
+    <br>
+    <div id = "bottom" class="container">
+        <div class="masthead2 align-self-center">
+             <div ng-mouseenter="amyFunc()" ng-mouseleave="amyFuk()" class="address">
+                <h2>Address</h2>
+                <img src = "icons/house.png" class="slide3" style="height: 40px; width: 40px;">
+                <h3>{{ address }}</h3>      
+            </div>
+        </div> 
+    </div>
+</main>
+</body>
+</html>
